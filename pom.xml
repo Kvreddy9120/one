@@ -36,27 +36,28 @@
 
     <repositories>
         <repository>
-            <id>mydevops-feed</id>
-            <url>https://pkgs.dev.azure.com/afsanabegummd00/MyFirstProject/_packaging/myfeed/maven/v1</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
+  <id>flm</id>
+  <url>https://pkgs.dev.azure.com/venkateswarareddy9120/DevOps/_packaging/flm/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
     </repositories>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>nexusRepo</id>
-            <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
-        </snapshotRepository>
-
         <repository>
-            <id>myfeed</id>
-            <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/mydevops-feed/maven/v1</url>
-        </repository>
+  <id>flm</id>
+  <url>https://pkgs.dev.azure.com/venkateswarareddy9120/DevOps/_packaging/flm/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
     </distributionManagement>
 
     <build>
