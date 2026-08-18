@@ -101,6 +101,10 @@
 
                 <configuration>
                     <failBuildOnCVSS>7</failBuildOnCVSS>
+                    <formats>
+                          <format>HTML</format>
+                          <format>XML</format>
+                    </formats>
                 </configuration>
 
                 <executions>
